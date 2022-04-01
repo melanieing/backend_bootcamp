@@ -1,23 +1,23 @@
 package forHW;
-// ±¸±¸´Ü Ãâ·Â
+// êµ¬êµ¬ë‹¨ ì¶œë ¥í•˜ê¸° 
 public class Day004_for_gugudan {
 	public static void main(String[] args) {
-		// °¡·Î ±¸±¸´Ü
-		for (int i = 1; i <= 9; i++) {
-			for (int j = 2; j <= 9; j++) {
-				System.out.printf("%d * %d = %2d | ", j, i, i*j);
+		
+		// ê°€ë¡œë¡œ ì¶œë ¥í•˜ê¸°
+		for (int gop = 1; gop <= 9; gop++) {
+			for (int dan = 2; dan <= 9; dan++) {
+				System.out.printf("%d * %d = %2d | ", dan, gop, dan*gop);
 			}
 			System.out.println();
 		}
 		
-		// º¸Ãæ (¼¼·Î ±¸±¸´Ü)
+		// ì„¸ë¡œë¡œ ì¶œë ¥í•˜ê¸°
 		for (int dan = 2; dan <= 9; dan++) {
-			System.out.println(dan + "´Ü>>");
+			System.out.println(dan + "ë‹¨>>");
 			for (int gop = 1; gop <= 9; gop++) {
-				System.out.printf("%2d * %2d = %2d\n", dan, gop, dan*gop);
+				System.out.printf("%d * %d = %2d\n", dan, gop, dan*gop);
 			}
 			System.out.println();
 		}
-		
 	}
 }
