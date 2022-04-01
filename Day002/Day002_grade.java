@@ -1,6 +1,6 @@
 package examjava02;
-// 3 °ú¸ñ(±¹¾î, ¿µ¾î, ¼öÇĞ)ÀÇ ¼ºÀûÀ» ÀÔ·Â ¹Ş±â
-// ÇÕ°è¿Í Æò±ÕÀ» Ãâ·ÂÇÏ±â
+// 3 ê³¼ëª©(êµ­ì–´, ì˜ì–´, ìˆ˜í•™)ì˜ ì„±ì ì„ ì…ë ¥ ë°›ê¸°
+// í•©ê³„ì™€ í‰ê· ì„ ì¶œë ¥í•˜ê¸°
 import java.util.Scanner;
 
 public class Day002_grade {
@@ -13,19 +13,19 @@ public class Day002_grade {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("±¹¾î Á¡¼ö ÀÔ·Â : ");
+		System.out.print("êµ­ì–´ ì ìˆ˜ ì…ë ¥ : ");
 		double kor = sc.nextDouble();
 		
-		System.out.print("¿µ¾î Á¡¼ö ÀÔ·Â : ");
+		System.out.print("ì˜ì–´ ì ìˆ˜ ì…ë ¥ : ");
 		double eng = sc.nextDouble();
 		
-		System.out.print("¼öÇĞ Á¡¼ö ÀÔ·Â : ");
+		System.out.print("ìˆ˜í•™ ì ìˆ˜ ì…ë ¥ : ");
 		double mat = sc.nextDouble();
 		
 		double sum = kor + eng + mat;
 		double avg = sum / 3.0;
-		System.out.println("ÇÕ°è: " + sum + "Á¡");
-		System.out.println("Æò±Õ: " + (Math.round(avg*100)/(double)100) + "Á¡");
+		System.out.println("í•©ê³„: " + sum + "ì ");
+		System.out.println("í‰ê· : " + (Math.round(avg*100)/(double)100) + "ì ");
 		
 		sc.close();
 
