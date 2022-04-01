@@ -1,5 +1,5 @@
 package examjava02;
-// ¿¬»êÀÚ ¿ì¼±¼øÀ§ ¿¹Á¦
+// ì—°ì‚°ìž ìš°ì„ ìˆœìœ„ ì˜ˆì œ
 public class Day002_operator {
 
 	public static void main(String []args){
@@ -13,12 +13,12 @@ public class Day002_operator {
         b = 0;
         System.out.printf("a = %d, b = %d, c = %d, d = %d\n",a,b,c,d); // a = 1, b = 0, c = 11, d = 12
         
-        // ³í¸® ¿¬»êÀÚÀÇ ´ÜÃàÆò°¡(short-circuit)
-        bo = a++ > 0 || 1 < ++b * d-- / ++c; // true = true || (¾îÂ÷ÇÇ trueÀÌ´Ï±î µÚ¿¡´Â ¾È º½) 
+        // ë…¼ë¦¬ ì—°ì‚°ìžì˜ ë‹¨ì¶•í‰ê°€(short-circuit)
+        bo = a++ > 0 || 1 < ++b * d-- / ++c; // true = true || (ì–´ì°¨í”¼ trueì´ë‹ˆê¹Œ ë’¤ì—ëŠ” ì•ˆ ë´„) 
         System.out.printf("a = %d, b = %d, c = %d, d = %d\n",a,b,c,d); // a = 2, b = 0, c = 11, d = 12 
         System.out.printf("bo = %b\n", bo); // true
         
-        bo = b++ > 0 && 1 < ++a / ++c * d++; // false = false && (¾îÂ÷ÇÇ false´Ï±î µÚ¿¡´Â ¾È º½)
+        bo = b++ > 0 && 1 < ++a / ++c * d++; // false = false && (ì–´ì°¨í”¼ falseë‹ˆê¹Œ ë’¤ì—ëŠ” ì•ˆ ë´„)
         System.out.printf("a = %d, b = %d, c = %d, d = %d\n",a,b,c,d); // a = 2, b = 1, c = 11, d = 12  
         System.out.printf("bo = %b\n", bo); // false
 
