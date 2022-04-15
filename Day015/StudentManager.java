@@ -65,8 +65,11 @@ public class StudentManager {
     		return;
     	}
         System.out.println("등록번호 : " + stu.getId());
-        System.out.println("이름 : " + stu.getName());
-        System.out.println("나이 : " + stu.getAge());
+        System.out.println("학생이름 : " + stu.getName());
+        System.out.println("학생나이 : " + stu.getAge());
+        System.out.println("영어성적 : " + stu.getEng());
+        System.out.println("수학성적 : " + stu.getMat());
+        System.out.println("성적평균 : " + stu.getAvg());
     }
 
     // 3. 학생 정보 검색
