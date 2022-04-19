@@ -1,0 +1,13 @@
+the sixteenth day of BEBC
+
+- Interface
+- Inheritance
+
+- MyList (Interface)
+  - MyArrayList
+  - MyArrayListTest
+    ArrayList ex.
+  
+  - MyLinkedList
+  - MyLinkedListTest
+    Linked List ex.
